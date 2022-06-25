@@ -1,0 +1,50 @@
+@import "reset";
+@import "variables";
+
+//global
+.btn {
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+a {
+  text-decoration: none;
+
+}
+
+//container 
+.container {
+  margin: 0 auto;
+  width: 90%;
+}
+// header
+.header {
+  background-color: $black;
+  color: $white;
+}
+// nav
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  
+}
+.nav-menu {
+  .nav-menu_list {
+    display: flex;
+  }
+}
+
+.bi-arrow-down-right-circle {
+  color: $white;
+}
+// btns
+.btn_request {
+  background-color: $black;
+  color: $white;
+}
+.btn_sign {
+  background-color: $primary-color;
+  color: $white;
+}

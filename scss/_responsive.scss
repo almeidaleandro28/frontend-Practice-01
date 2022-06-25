@@ -1,1 +1,12 @@
-_responsive.scss
+@mixin device( $size ) {
+  @if $size == sm {
+    @media ( min-width: 576px) {
+      @content
+    }
+  }
+  @if $size == md {
+    @media ( min-width: 778px) {
+      @content
+    }
+  }
+}
