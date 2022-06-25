@@ -8,7 +8,6 @@
 }
 a {
   text-decoration: none;
-
 }
 
 //container 
@@ -20,21 +19,25 @@ a {
 .header {
   background-color: $black;
   color: $white;
+  padding: 5px 5px;
 }
 // nav
 .nav {
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
 }
 
 .nav-logo {
   
 }
 .nav-menu {
-  .nav-menu_list {
     display: flex;
+    justify-content: center;
+  } .nav-menu a {
+    color: $white;
   }
-}
+
 
 .bi-arrow-down-right-circle {
   color: $white;

@@ -77,15 +77,22 @@ a {
 .header {
   background-color: #000000;
   color: #ffffff;
+  padding: 5px 5px;
 }
 
 .nav {
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
 }
 
-.nav-menu .nav-menu_list {
+.nav-menu {
   display: flex;
+  justify-content: center;
+}
+
+.nav-menu a {
+  color: #ffffff;
 }
 
 .bi-arrow-down-right-circle {
