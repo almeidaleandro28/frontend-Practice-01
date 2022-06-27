@@ -74,5 +74,15 @@ a {
 }
 .hero-form .bi-arrow-right {
   background-color: $white;
-  
 }
+
+// section services
+.services {
+  background-color: $white;
+}
+
+.service{
+  display: flex;
+}
+.service-icon {}
+.service-explanation {}

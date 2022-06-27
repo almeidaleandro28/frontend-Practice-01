@@ -134,4 +134,12 @@ a {
   background-color: #ffffff;
 }
 
+.services {
+  background-color: #ffffff;
+}
+
+.service {
+  display: flex;
+}
+
 /*# sourceMappingURL=style.css.map */
