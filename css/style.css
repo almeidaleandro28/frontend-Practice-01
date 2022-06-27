@@ -109,4 +109,29 @@ a {
   color: #ffffff;
 }
 
+.hero {
+  background-color: #dadbf1;
+}
+
+.hero-container {
+  margin: 0 auto;
+  padding: 3rem 0;
+  text-align: center;
+  width: fit-content;
+}
+
+.hero-form {
+  border: 1px solid #000000;
+  display: flex;
+}
+
+.hero-form input {
+  width: 100%;
+  border: none;
+}
+
+.hero-form .bi-arrow-right {
+  background-color: #ffffff;
+}
+
 /*# sourceMappingURL=style.css.map */

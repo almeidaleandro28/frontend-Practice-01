@@ -42,7 +42,7 @@ a {
 .bi-arrow-down-right-circle {
   color: $white;
 }
-// btns
+// header btns
 .btn_request {
   background-color: $black;
   color: $white;
@@ -50,4 +50,29 @@ a {
 .btn_sign {
   background-color: $primary-color;
   color: $white;
+}
+
+// --- hero ---
+.hero {
+  background-color: $secundary-color;
+}
+.hero-container { 
+  margin: 0 auto;
+  padding: 3rem 0;
+  text-align: center;
+  width: fit-content;
+}
+.hero-container h1 {}
+.hero-form {
+  border: 1px solid $black;
+  display: flex;
+
+}
+.hero-form input {
+  width: 100%;
+  border: none;
+}
+.hero-form .bi-arrow-right {
+  background-color: $white;
+  
 }
