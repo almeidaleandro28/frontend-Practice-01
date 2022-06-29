@@ -80,9 +80,16 @@ a {
 .services {
   background-color: $white;
 }
+.container-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-top: 6rem;
 
+}
 .service{
   display: flex;
+  padding-bottom: 3rem;
 }
+
 .service-icon {}
 .service-explanation {}

@@ -138,8 +138,15 @@ a {
   background-color: #ffffff;
 }
 
+.container-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-top: 6rem;
+}
+
 .service {
   display: flex;
+  padding-bottom: 3rem;
 }
 
 /*# sourceMappingURL=style.css.map */
