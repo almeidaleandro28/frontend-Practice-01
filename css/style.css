@@ -70,6 +70,10 @@ body {
   border-radius: 5px;
 }
 
+h1 {
+  font-size: 3.052rem;
+}
+
 a {
   text-decoration: none;
 }
