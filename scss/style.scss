@@ -4,11 +4,14 @@
 //--- global ---
 body {
   height: 100vh;
+  font-family: $roboto;
 }
+
 .btn {
   padding: 5px 15px;
   border-radius: 5px;
 }
+
 a {
   text-decoration: none;
 }
@@ -18,17 +21,28 @@ a {
   margin: 0 auto;
   width: 90%;
 }
+
 //--- header ---
 .header {
   background-color: $black;
   color: $white;
   padding: 5px 5px;
 }
+
 //--- nav ----
 .nav {
   display: flex;
+  justify-content: space-around;
+  
+  
+}
+
+.nav-header {
+  display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: baseline;
+  
 }
 
 .nav-logo {
@@ -46,12 +60,18 @@ a {
   color: $white;
 }
 // header btns
+.nav_btns {
+  
+}
+
 .btn_request {
   background-color: $black;
+  border: 1px solid $white;
   color: $white;
 }
 .btn_sign {
   background-color: $primary-color;
+  border: none;
   color: $white;
 }
 

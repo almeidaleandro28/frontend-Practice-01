@@ -62,6 +62,7 @@ table {
 
 body {
   height: 100vh;
+  font-family: "Roboto", sans-serif;
 }
 
 .btn {
@@ -86,6 +87,12 @@ a {
 
 .nav {
   display: flex;
+  justify-content: space-around;
+}
+
+.nav-header {
+  display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: baseline;
 }
@@ -105,11 +112,13 @@ a {
 
 .btn_request {
   background-color: #000000;
+  border: 1px solid #ffffff;
   color: #ffffff;
 }
 
 .btn_sign {
   background-color: #4C5FD5;
+  border: none;
   color: #ffffff;
 }
 
