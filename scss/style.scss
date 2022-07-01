@@ -20,7 +20,7 @@ h2 {
 }
 h3 {
   font-size: 1.953rem;
-}
+} 
 
 a {
   text-decoration: none;
@@ -89,22 +89,27 @@ a {
 .hero {
   background-color: $secundary-color;
 }
+
 .hero-container { 
   margin: 0 auto;
   padding: 3rem 0;
   text-align: center;
   width: fit-content;
 }
+
 .hero-container h1 {}
+
 .hero-form {
   border: 1px solid $black;
   display: flex;
 
 }
+
 .hero-form input {
   width: 100%;
   border: none;
 }
+
 .hero-form .bi-arrow-right {
   background-color: $white;
 }
@@ -113,12 +118,13 @@ a {
 .services {
   background-color: $white;
 }
+
 .container-grid {
   display: grid;
   grid-template-columns: auto auto;
   padding-top: 6rem;
-
 }
+
 .service{
   display: flex;
   padding-bottom: 3rem;
@@ -140,11 +146,27 @@ a {
 }
 
 .footer-info{
-  height: 100%;
+  
+  padding: 15px 0px;
 }
 
-.footer-info h2 {}
+.footer-info h3 {
+  font-weight: 700;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
 .list{
-  .list-item {}
-  .list-item a {}
+  .list-item {
+    padding-bottom: 2px;
+  } 
+  .list-item a {
+    color: $white;
+    
+  }
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  padding-top: 160px;
 }
