@@ -60,6 +60,10 @@ table {
   padding: 0;
 }
 
+body {
+  height: 100vh;
+}
+
 .btn {
   padding: 5px 15px;
   border-radius: 5px;
@@ -152,6 +156,16 @@ a {
 .footer {
   background-color: #000000;
   color: #ffffff;
+  height: 100%;
+}
+
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-info {
+  height: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */

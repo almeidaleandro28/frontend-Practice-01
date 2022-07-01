@@ -1,7 +1,10 @@
 @import "reset";
 @import "variables";
 
-//global
+//--- global ---
+body {
+  height: 100vh;
+}
 .btn {
   padding: 5px 15px;
   border-radius: 5px;
@@ -10,18 +13,18 @@ a {
   text-decoration: none;
 }
 
-//container 
+//--- container ---
 .container {
   margin: 0 auto;
   width: 90%;
 }
-// header
+//--- header ---
 .header {
   background-color: $black;
   color: $white;
   padding: 5px 5px;
 }
-// nav
+//--- nav ----
 .nav {
   display: flex;
   justify-content: space-between;
@@ -76,7 +79,7 @@ a {
   background-color: $white;
 }
 
-// section services
+//--- section services ---
 .services {
   background-color: $white;
 }
@@ -94,8 +97,24 @@ a {
 .service-icon {}
 .service-explanation {}
 
-// footer 
+//--- footer --- 
 .footer {
   background-color: $black;
   color: $white;
+  height: 100%;
+}
+
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-info{
+  height: 100%;
+}
+
+.footer-info h2 {}
+.list{
+  .list-item {}
+  .list-item a {}
 }
