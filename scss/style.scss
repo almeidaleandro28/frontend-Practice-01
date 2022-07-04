@@ -139,7 +139,7 @@ a {
 .footer {
   background-color: $black;
   color: $white;
-  height: 100%;
+  height: max-content;
 }
 
 .container-footer {
@@ -147,8 +147,7 @@ a {
   justify-content: space-between;
 }
 
-.footer-info{
-  
+.footer-info{ 
   padding: 15px 0px;
 }
 
