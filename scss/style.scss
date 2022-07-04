@@ -132,8 +132,22 @@ a {
   padding-bottom: 3rem;
 }
 
-.service-icon {}
-.service-explanation {}
+.service-icon {
+  padding-top: 10px;
+  padding-right: 5px;
+}
+
+.service-explanation {
+  h2 {
+    padding-bottom: 10px;
+  }
+  p {
+    padding-bottom: 10px;
+  }
+  a {
+    color: $primary-color;
+  }
+}
 
 //--- footer --- 
 .footer {

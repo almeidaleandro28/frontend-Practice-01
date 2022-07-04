@@ -177,6 +177,21 @@ a {
   padding-bottom: 3rem;
 }
 
+.service-icon {
+  padding-top: 10px;
+  padding-right: 5px;
+}
+
+.service-explanation h2 {
+  padding-bottom: 10px;
+}
+.service-explanation p {
+  padding-bottom: 10px;
+}
+.service-explanation a {
+  color: #4C5FD5;
+}
+
 .footer {
   background-color: #000000;
   color: #ffffff;
