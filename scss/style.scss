@@ -51,7 +51,7 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
   
 }
 
@@ -61,6 +61,7 @@ a {
 .nav-menu {
     display: flex;
     justify-content: center;
+    padding-left: 5px;
   } .nav-menu a {
     color: $white;
   }
@@ -100,9 +101,10 @@ a {
 .hero-container h1 {}
 
 .hero-form {
+  background-color: $white;
   border: 1px solid $black;
   display: flex;
-
+  padding: 10px 5px;
 }
 
 .hero-form input {

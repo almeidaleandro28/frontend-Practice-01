@@ -106,12 +106,13 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
 }
 
 .nav-menu {
   display: flex;
   justify-content: center;
+  padding-left: 5px;
 }
 
 .nav-menu a {
@@ -146,8 +147,10 @@ a {
 }
 
 .hero-form {
+  background-color: #ffffff;
   border: 1px solid #000000;
   display: flex;
+  padding: 10px 5px;
 }
 
 .hero-form input {
