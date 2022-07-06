@@ -127,6 +127,7 @@ a {
   background-color: #000000;
   border: 1px solid #ffffff;
   color: #ffffff;
+  margin-right: 5px;
 }
 
 .btn_sign {
@@ -149,6 +150,7 @@ a {
 .hero-form {
   background-color: #ffffff;
   border: 1px solid #000000;
+  margin-top: 15px;
   display: flex;
   padding: 10px 5px;
 }
@@ -156,6 +158,10 @@ a {
 .hero-form input {
   width: 100%;
   border: none;
+}
+.hero-form input:active {
+  border: none;
+  outline: none;
 }
 
 .hero-form .bi-arrow-right {
@@ -224,6 +230,10 @@ a {
   display: flex;
   flex-direction: column;
   padding-top: 160px;
+}
+
+.footer-logo {
+  padding-bottom: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
