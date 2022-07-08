@@ -60,7 +60,9 @@ a {
 }
 
 .nav-logo {
-  
+  @include device( mobile ) {
+    display: none;
+  }
 }
 .nav-menu {
     display: flex;
