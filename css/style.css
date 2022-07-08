@@ -106,12 +106,24 @@ a {
   display: flex;
   justify-content: space-around;
 }
+@media (max-width: 576px) {
+  .nav {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
 
 .nav-header {
+  align-items: center;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+}
+@media (max-width: 576px) {
+  .nav-header {
+    justify-content: center;
+    padding-bottom: 15px;
+  }
 }
 
 .nav-menu {
@@ -126,6 +138,11 @@ a {
 
 .bi-arrow-down-right-circle {
   color: #ffffff;
+}
+
+.nav_btns {
+  display: flex;
+  justify-content: center;
 }
 
 .btn_request {

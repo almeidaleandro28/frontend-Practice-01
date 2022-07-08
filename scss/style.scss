@@ -47,22 +47,30 @@ a {
 .nav {
   display: flex;
   justify-content: space-around;
+  @include device( mobile ) {
+    flex-direction: column;
+    justify-content: center;
+
+  }
   
   
 }
 
 .nav-header {
+  align-items: center;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  @include device( mobile ) {
+    justify-content: center;
+    padding-bottom: 15px;
+  }
   
 }
 
 .nav-logo {
-  @include device( mobile ) {
-    display: none;
-  }
+  
+  
 }
 .nav-menu {
     display: flex;
@@ -78,7 +86,8 @@ a {
 }
 // header btns
 .nav_btns {
-  
+  display: flex;
+  justify-content: center;
 }
 
 .btn_request {
