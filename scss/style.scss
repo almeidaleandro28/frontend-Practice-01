@@ -184,6 +184,10 @@ a {
 .container-footer {
   display: flex;
   justify-content: space-between;
+  @include device( mobile ) {
+    flex-direction: column;
+    text-align: center;
+  }
 }
 
 .footer-info{ 
@@ -209,6 +213,9 @@ a {
   display: flex;
   flex-direction: column;
   padding-top: 160px;
+  @include device( mobile ) {
+    padding: 0px;
+  }
 }
 
 .footer-logo {
